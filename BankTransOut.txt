@@ -1,0 +1,81 @@
+Alan Lai Program 5 Output
+
+ERROR:Failed to withdraw $20000 from Johnny Cash's Growth Index Fund. REASON: Not enough funds to complete withdrawal.
+-----------------VIEWING 17 PREVIOUS TRANSACTIONS FOR Johnny Cash'S ACCOUNT-----------------
+1) Account #1001 was opened for Johnny Cash.
+2) $542 was deposited into Johnny Cash's Money Market.
+3) $1542 was deposited into Johnny Cash's Prime Money Market.
+4) $5442 was deposited into Johnny Cash's Long-Term Bond.
+5) $7540 was deposited into Johnny Cash's Short-Term Bond.
+6) $5442 was deposited into Johnny Cash's Growth Index Fund.
+7) $7542 was deposited into Johnny Cash's Growth Equity Fund.
+8) $1500 was deposited into Johnny Cash's Prime Money Market.
+9) $5000 was deposited into Johnny Cash's Long-Term Bond.
+10) $7000 was deposited into Johnny Cash's Short-Term Bond.
+11) $6543 was deposited into Johnny Cash's Growth Index Fund.
+12) $7576 was deposited into Johnny Cash's Growth Equity Fund.
+13) $1000 was withdrawn from Johnny Cash's Growth Index Fund.
+14) $65 was withdrawn from Johnny Cash's Growth Equity Fund.
+15) $72 was withdrawn from Johnny Cash's Money Market.
+16) Johnny Cash did an internal transfer of $54 from their Growth Index Fund to their Capital Value.
+17) Failed to withdraw $20000 from Johnny Cash's Growth Index Fund. REASON: Not enough funds to complete withdrawal.
+------------VIEWING 1 PREVIOUS TRANSACTIONS FOR Hank Williams'S 500 Index Fund------------
+1) $10000 was deposited into Hank Williams's 500 Index Fund.
+-----------------VIEWING 13 PREVIOUS TRANSACTIONS FOR Hank Williams'S ACCOUNT-----------------
+1) Account #1253 was opened for Hank Williams.
+2) $10000 was deposited into Hank Williams's Money Market.
+3) $10000 was deposited into Hank Williams's Prime Money Market.
+4) $10000 was deposited into Hank Williams's Long-Term Bond.
+5) $10000 was deposited into Hank Williams's Short-Term Bond.
+6) $10000 was deposited into Hank Williams's 500 Index Fund.
+7) $10000 was deposited into Hank Williams's Capital Value.
+8) $10000 was deposited into Hank Williams's Growth Equity Fund.
+9) $10000 was deposited into Hank Williams's Growth Index Fund.
+10) $10000 was deposited into Hank Williams's Value Fund.
+11) $10000 was deposited into Hank Williams's Value Stock Index.
+12) History was viewed for Hank Williams's .
+13) $10000 from Long-Term Bond and $5000 from Short-Term Bond was withdrawn from Hank Williams's account.
+---------------------------------------------------------------------------------------
+ERROR: Transfer failed. Account #4356 does not exist!
+---------------------------------------------------------------------------------------
+ERROR: Can't open account. Account #9876 already exists.
+---------------------------------------------------------------------------------------
+Processing Done. Printing final balances...
+---------------------------------------------------------------------------------------
+Johnny Cash | Account #1001
+Money Market: $470
+Prime Money Market: $3042
+Long-Term Bond: $10442
+Short-Term Bond: $14540
+500 Index Fund: $0
+Capital Value Fund: $54
+Growth Equity Fund: $15053
+Growth Index Fund: $10931
+Value Fund: $0
+Value Stock Index: $0
+
+---------------------------------------------------------------------------------------
+Hank Williams | Account #1253
+Money Market: $10000
+Prime Money Market: $10000
+Long-Term Bond: $0
+Short-Term Bond: $5000
+500 Index Fund: $10000
+Capital Value Fund: $10000
+Growth Equity Fund: $10000
+Growth Index Fund: $10000
+Value Fund: $10000
+Value Stock Index: $10000
+
+---------------------------------------------------------------------------------------
+Willie Nelson | Account #9876
+Money Market: $0
+Prime Money Market: $0
+Long-Term Bond: $0
+Short-Term Bond: $0
+500 Index Fund: $0
+Capital Value Fund: $0
+Growth Equity Fund: $0
+Growth Index Fund: $0
+Value Fund: $0
+Value Stock Index: $0
