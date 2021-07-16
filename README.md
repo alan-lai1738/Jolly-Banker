@@ -8,4 +8,5 @@ A Back-End Bankiing application that processes transactions.
 
 
 ## Design
-InkedProgram 5 design Alan_LI.jpg
+
+![alt text](https://github.com/alan-lai1738/Jolly-BNanker/main/InkedProgram 5 design Alan_LI.jpg?raw=true)
