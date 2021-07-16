@@ -1,7 +1,8 @@
 # Jolly-Banker
-A Back-End Bankiing application that processes transactions.
+A Back-End Bankiing application that processes transactions. 
 
 ## Overview
+This bank runs with an account binary tree to keep track of accounts. Accounts are viewed through the findAccount method and will be retrieved through the tree. Accounts have a history log done through a string vector. There is also a separate fund vector with Fund objects to keep track of unique balances in unique funds. 
 1. This program reads in a string of transactions from a file into an in-memory queue. These transactions can open accounts, withdraw funds, deposit funds, transfer funds, or ask for the transactional history to be printed.
 2. This program reads from the queue and processes the transactions in order.
 3. When the queue has been depleted the program will print out all open accounts and balances in those accounts.
@@ -71,3 +72,31 @@ The Fund class is a small helper class which is seen in Fund vectors of every ac
 ## Design
 
 ![alt text](https://github.com/alan-lai1738/Jolly-Banker/blob/main/InkedProgram%205%20design%20Alan_LI.jpg?raw=true)
+  
+  
+## Client Accounts and funds
+Each client account contains assets held in up to ten funds.  A client account is represented by a first and last name (two strings) and a unique 4 digit identifier.  A fifth digit canbe added to the digit id to represent the individual fund within the account as enumerated below:
+  
+0: Money Market [joint]
+1: Prime Money Market [joint] 
+2: Long-Term Bond 
+3: Short-Term Bond 
+4: 500 Index Fund 
+5: Capital Value Fund
+6: Growth Equity Fund
+7: Growth Index Fund
+8: Value Fund
+9: Value Stock Index
+  
+## Transactions
+There are five types of transactions and each are identified by a character beginning the line. 
+• O:  Open a client account with the appropriate funds
+• D:  Deposit assets into a fund
+• W: Withdraw assets from a fund
+• T:  Transfer assets between funds (can be funds owned by a single client or transfers between clients)
+• H:  Display the history of all transactions for a client account or for a single fund.  Include errors in the output where appropriate. After this character key, the account-fund number is given followed by relevant information for the transaction.   
+ ![image](https://user-images.githubusercontent.com/70036749/125998723-95182f55-59ef-47fc-872e-27ef11a4f56c.png)
+
+ ## Errors
+ ![image](https://user-images.githubusercontent.com/70036749/125998813-3c64c035-3722-4291-bc97-90fdfb2f52d2.png)
+
