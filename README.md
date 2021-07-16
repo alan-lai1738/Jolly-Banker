@@ -70,4 +70,4 @@ The Fund class is a small helper class which is seen in Fund vectors of every ac
 
 ## Design
 
-![alt text](https://drive.google.com/file/d/1bPpYiiSEZ9SWIHQDTvA9yJ1_FgDuP0Hb/view?usp=sharing)
+![alt text](https://github.com/alan-lai1738/Jolly-Banker/blob/main/InkedProgram%205%20design%20Alan_LI.jpg?raw=true)
