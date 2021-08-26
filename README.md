@@ -1,5 +1,5 @@
 # Jolly-Banker
-A Back-End Bankiing application that processes transactions. 
+A Back-End Banking application that processes transactions. 
 
 ## Overview
 This bank runs with an account binary tree to keep track of accounts. Accounts are viewed through the findAccount method and will be retrieved through the tree. Accounts have a history log done through a string vector. There is also a separate fund vector with Fund objects to keep track of unique balances in unique funds. 
